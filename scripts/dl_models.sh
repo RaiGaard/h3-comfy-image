@@ -9,4 +9,6 @@ get Comfy-Org/MiniMax-H3 vae/minimax_h3_video_vae_int8_convrot.safetensors vae &
 get Comfy-Org/MiniMax-H3 vae/minimax_h3_audio_vae_fp32.safetensors vae &
 get WarmBloodAban/Minimax-h3_Singularity Minimax-h3_Singularity_ref2va_Pruned_v1.3_int8.safetensors diffusion_models &
 get Comfy-Org/MiniMax-H3 loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors loras &
+# Latent upscaler (Apache-2.0, 0.7 GB) for the Seed Hunter two-stage test: preview small, upscale the latent, refine.
+get LBH-123-AI/Minimax_h3_latent_Upscaler minimax_h3_latent_upscaler_3d_conv_v1/minimax_h3_latent_upscaler_3d_conv_v1_bf16.safetensors latent_upscale_models &
 wait; echo DL_MAIN_DONE
